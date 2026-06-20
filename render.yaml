@@ -8,7 +8,7 @@ services:
     plan: free
     envVars:
       - key: CORS_ORIGINS
-        value: https://resumeiq.vercel.app
+        value: https://resume-iq-alpha-nine.vercel.app
       - key: OPENAI_API_KEY
         sync: false   # Set manually in Render dashboard (not committed to repo)
       - key: PYTHON_VERSION
