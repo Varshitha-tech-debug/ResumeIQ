@@ -6,7 +6,7 @@ import type { AnalysisResult } from "../types";
 
 const BASE_URL =
   (import.meta as ImportMeta & { env: Record<string, string> }).env
-    .VITE_API_URL ?? "http://localhost:8000";
+    .VITE_API_URL ?? "https://resumeiq-api-varsha.onrender.com";
 
 const client = axios.create({ baseURL: BASE_URL });
 
