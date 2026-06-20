@@ -1,0 +1,14 @@
+{
+  "name": "resumeiq",
+  "private": true,
+  "version": "3.1.0",
+  "description": "Evidence-based resume intelligence platform",
+  "scripts": {
+    "dev:backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && pytest -v",
+    "lint": "cd frontend && npm run lint",
+    "docker:up": "docker compose up --build"
+  }
+}
